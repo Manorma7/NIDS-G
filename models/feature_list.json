@@ -1,0 +1,23 @@
+{
+  "features": [
+    "duration",
+    "protocol_type",
+    "src_bytes",
+    "dst_bytes",
+    "land",
+    "wrong_fragment",
+    "urgent",
+    "count",
+    "srv_count",
+    "serror_rate",
+    "rerror_rate",
+    "same_srv_rate",
+    "diff_srv_rate"
+  ],
+  "categorical": [
+    "protocol_type"
+  ],
+  "dataset": "NSL-KDD",
+  "positive_class": "attack",
+  "default_threshold": 0.3
+}
